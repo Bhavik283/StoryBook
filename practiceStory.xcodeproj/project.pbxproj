@@ -14,8 +14,6 @@
 		800995622B298BDA0047D417 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 800995602B298BDA0047D417 /* LaunchScreen.storyboard */; };
 		8009956C2B29A9CD0047D417 /* StoryButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8009956B2B29A9CD0047D417 /* StoryButtonViewController.swift */; };
 		8009956E2B29A9EC0047D417 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8009956D2B29A9EC0047D417 /* ButtonView.swift */; };
-		800995712B29B16C0047D417 /* practiceButton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 800995702B29B16C0047D417 /* practiceButton.framework */; };
-		800995722B29B16C0047D417 /* practiceButton.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 800995702B29B16C0047D417 /* practiceButton.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		801D85892B2ADE2F00B767BD /* BadgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801D85882B2ADE2F00B767BD /* BadgeView.swift */; };
 		801D858B2B2ADE8D00B767BD /* AvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801D858A2B2ADE8D00B767BD /* AvatarView.swift */; };
 		801D858E2B2ADEAB00B767BD /* StoryBadgeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801D858D2B2ADEAB00B767BD /* StoryBadgeViewController.swift */; };
@@ -23,16 +21,20 @@
 		801D85922B2ADEE200B767BD /* MainStoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801D85912B2ADEE200B767BD /* MainStoryViewController.swift */; };
 		801D85942B2ADEF900B767BD /* StoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801D85932B2ADEF900B767BD /* StoryTableViewCell.swift */; };
 		801D85982B2C423C00B767BD /* SelectSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801D85972B2C423C00B767BD /* SelectSliderView.swift */; };
+		801D85BC2B2C910C00B767BD /* practiceButton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 801D85BB2B2C910C00B767BD /* practiceButton.framework */; };
+		801D85BD2B2C910C00B767BD /* practiceButton.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 801D85BB2B2C910C00B767BD /* practiceButton.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		80DDC2BD2B7371A700C5A02F /* BetaViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80DDC2BC2B7371A700C5A02F /* BetaViewViewController.swift */; };
+		80DDC2BF2B7373F800C5A02F /* BetaViewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80DDC2BE2B7373F800C5A02F /* BetaViewView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		800995732B29B16C0047D417 /* Embed Frameworks */ = {
+		801D85BE2B2C910C00B767BD /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				800995722B29B16C0047D417 /* practiceButton.framework in Embed Frameworks */,
+				801D85BD2B2C910C00B767BD /* practiceButton.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -57,6 +59,9 @@
 		801D85912B2ADEE200B767BD /* MainStoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainStoryViewController.swift; sourceTree = "<group>"; };
 		801D85932B2ADEF900B767BD /* StoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryTableViewCell.swift; sourceTree = "<group>"; };
 		801D85972B2C423C00B767BD /* SelectSliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectSliderView.swift; sourceTree = "<group>"; };
+		801D85BB2B2C910C00B767BD /* practiceButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = practiceButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		80DDC2BC2B7371A700C5A02F /* BetaViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetaViewViewController.swift; sourceTree = "<group>"; };
+		80DDC2BE2B7373F800C5A02F /* BetaViewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetaViewView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				800995712B29B16C0047D417 /* practiceButton.framework in Frameworks */,
+				801D85BC2B2C910C00B767BD /* practiceButton.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -107,6 +112,7 @@
 		8009956F2B29B16C0047D417 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				801D85BB2B2C910C00B767BD /* practiceButton.framework */,
 				800995702B29B16C0047D417 /* practiceButton.framework */,
 			);
 			name = Frameworks;
@@ -120,6 +126,7 @@
 				801D85882B2ADE2F00B767BD /* BadgeView.swift */,
 				8009956D2B29A9EC0047D417 /* ButtonView.swift */,
 				801D85972B2C423C00B767BD /* SelectSliderView.swift */,
+				80DDC2BE2B7373F800C5A02F /* BetaViewView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -129,6 +136,7 @@
 			children = (
 				801D858F2B2ADEBB00B767BD /* StoryAvatarViewController.swift */,
 				801D858D2B2ADEAB00B767BD /* StoryBadgeViewController.swift */,
+				80DDC2BC2B7371A700C5A02F /* BetaViewViewController.swift */,
 				8009956B2B29A9CD0047D417 /* StoryButtonViewController.swift */,
 			);
 			path = ViewControllers;
@@ -144,7 +152,7 @@
 				8009954E2B298BD80047D417 /* Sources */,
 				8009954F2B298BD80047D417 /* Frameworks */,
 				800995502B298BD80047D417 /* Resources */,
-				800995732B29B16C0047D417 /* Embed Frameworks */,
+				801D85BE2B2C910C00B767BD /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -211,6 +219,8 @@
 				801D85902B2ADEBB00B767BD /* StoryAvatarViewController.swift in Sources */,
 				801D858B2B2ADE8D00B767BD /* AvatarView.swift in Sources */,
 				801D858E2B2ADEAB00B767BD /* StoryBadgeViewController.swift in Sources */,
+				80DDC2BD2B7371A700C5A02F /* BetaViewViewController.swift in Sources */,
+				80DDC2BF2B7373F800C5A02F /* BetaViewView.swift in Sources */,
 				801D85892B2ADE2F00B767BD /* BadgeView.swift in Sources */,
 				801D85982B2C423C00B767BD /* SelectSliderView.swift in Sources */,
 				800995582B298BD80047D417 /* SceneDelegate.swift in Sources */,

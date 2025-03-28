@@ -1,0 +1,21 @@
+PODS:
+  - practiceButton (1.2.0)
+
+DEPENDENCIES:
+  - practiceButton (from `https://github.com/Bhavik283/practiceButton.git`)
+
+EXTERNAL SOURCES:
+  practiceButton:
+    :git: https://github.com/Bhavik283/practiceButton.git
+
+CHECKOUT OPTIONS:
+  practiceButton:
+    :commit: 4a480e22bca08783c4e0196cf5cfb60a84d4559d
+    :git: https://github.com/Bhavik283/practiceButton.git
+
+SPEC CHECKSUMS:
+  practiceButton: 8384a90f3f03e9d3f581e180de3ea0bce65ea33c
+
+PODFILE CHECKSUM: 900d68f82f2b92d07352c731f50f15a035232ade
+
+COCOAPODS: 1.14.2

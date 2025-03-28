@@ -9,8 +9,8 @@ import UIKit
 
 class MainStoryViewController: UIViewController {
 
-    let titles: [String] = ["Avatar", "Badge", "Button"]
-    let controllers: [UIViewController] = [StoryAvatarViewController(), StoryBadgeViewController(), StoryButtonViewController()]
+    let titles: [String] = ["Avatar", "Badge", "Button", "BetaView"]
+    let controllers: [UIViewController] = [StoryAvatarViewController(), StoryBadgeViewController(), StoryButtonViewController(), BetaViewViewController()]
     
     private let storyTable: UITableView = {
         let table = UITableView()
